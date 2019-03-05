@@ -13,7 +13,11 @@ import * as firebase from 'firebase';
    firebase.initializeApp(config);
  
   firebase.database().ref().set({
-name: 'Ricky Raghavan'
+name: 'Ricky Raghavan',
+cities:[
+  'Mahwah',
+  'New York City'
+]
 
   });
 const database=firebase.database();
