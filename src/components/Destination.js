@@ -4,9 +4,9 @@ const Destination =()=>{
     return (
 <div>
     <form>
-    <select /><br/>
-    <select /><br/>
-    <input type="text"/>
+    From: <select /><br/>
+    To: <select /><br/>
+    Date :<input type="text"/>
     </form>
     <h2>Destination</h2>
     </div>
