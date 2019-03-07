@@ -6,6 +6,7 @@ import React from 'react';
 
       <div>
 <h2>Search</h2>
+<button>Search</button>
 </div>
   );
 
