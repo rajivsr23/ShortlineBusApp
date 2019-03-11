@@ -25,6 +25,14 @@ startimes:[
   });
 const database=firebase.database();
 
+database.ref('startimes').once('value').then((snapshot)=>{
+  const val=snapshot.val();
+  console.log(val);
+})
+.catch((e)=>{
+  console.log('Error fetching data',e);
+})
+
 const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
 export { firebase, googleAuthProvider, database as default };
