@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 
 const Destination =()=>{
     return (
@@ -15,4 +16,7 @@ const Destination =()=>{
     
     
 };
+
+const now =moment();
+console.log(now);
 export default Destination;
